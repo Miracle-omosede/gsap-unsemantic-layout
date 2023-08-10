@@ -1,0 +1,141 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    background-color: #f9f9f9;
+}
+
+div#parent {
+    height: 1000px;
+    background: url("../images/model1.png");
+    background-size: contain;
+    background-position-y: -100px;
+    background-position-x: -100px ;
+    background-repeat: no-repeat;
+}
+
+div#parent header {
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 0px;
+}
+
+div#parent header .logo h1 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div#parent header nav {
+    float: right;
+}
+
+div#parent header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+div#parent header nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: #000;
+    font-size: 14px;
+}
+
+div#parent header nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+div#parent section {
+    position: relative;
+    top: 120px;
+}
+
+div#parent section .title {
+    text-transform: capitalize;
+}
+
+div#parent section .title h4{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div#parent section .title h1{
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 150px;
+}
+
+div#parent section .content {
+    font-family: 'Poppins', sans-serif;
+}
+
+div#parent .grid-content {
+    display: flex;
+    flex-direction: column;
+}
+
+div#parent section .content h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+
+div#parent section .content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+div#parent .text-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+div#parent section .btn {
+    margin-top: 40px;
+    width: 100%
+}
+
+div#parent section .btn a{
+    margin-top: 40px;
+}
+
+/* div#parent section .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    flex-direction: row;
+} */
+
+div#parent section .btn a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+}
